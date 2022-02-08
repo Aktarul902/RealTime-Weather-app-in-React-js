@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root {
+    --main-bg-color: black;
+    --secondary--color:#202020
+  }
+  .text-center{
+      text-align: center;
+      font-family: "Quicksand";
+      font-weight: bold;
+      margin-top: 10px;
+  }
+body{
+    color: rgb(194, 184, 184);
+    background-color:var(--main-bg-color) ;
+}
+nav{
+    height: 6vh;
+    /* color: #fff; */
+    margin: 40px 0px;
+    background-color: var(--secondary--color);
+    width: 200vw;
+    
+    
+}
+@media (max-width:768px) {
+    /* body{ */
+        /* background-color: rebeccapurple; */
+        /* } */
+        li{
+            
+            margin: 10px 5vw;
+            padding: 17px -1vw;
+            
+        } 
+    }
+    ul{
+
+        overflow: scroll;
+    }
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 9vw;
+    padding: 17px -1vw;
+    cursor: pointer;
+}
+li:hover{
+   text-decoration: 8px solid #fff underline;
+}
+main{
+    display: inline-block;
+    flex-direction: row;
+}
+.card{
+    position: relative;
+    /* color: #fff; */
+    border: none;
+    height: 370px;
+    width: 350px;
+    margin: 20px 69px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--secondary--color);
+    border-radius: 10px;
+    padding: 10px  10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+
+.card:hover{
+    border: 2px solid rgb(194, 184, 184);;
+}
+.id{
+    border-radius: 50px;
+    border: 2px solid rgb(219, 216, 216);
+    width: 7px;
+    height: 17px;
+    padding: 0px 6px;
+    
+}
+.food-name{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+.pic-food{
+    height: 156px;
+    padding: 10px 93px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#485460;
+    border-radius: 10px;
+}

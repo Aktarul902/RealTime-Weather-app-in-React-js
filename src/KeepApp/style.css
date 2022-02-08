@@ -1,0 +1,17 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    color: #fff;
+    background-color: orange;
+    
+    
+}
+#logo{
+   
+    font-size: 25px;
+    padding-left: 10px;
+    margin: 0px 10px;
+}

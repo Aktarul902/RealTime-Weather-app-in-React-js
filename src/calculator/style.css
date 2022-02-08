@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.calculator{
+    height: 43vh;
+    width: 29vw;
+    border: 2px solid red;
+    margin: 14vw;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    position: relative;
+    top: 217px;
+    height: 5vh;
+    width: 5vw;
+    background: #d2dae2;
+    padding: 10px 2vw;
+    /* bottom: -4px; */
+    cursor: pointer;
+    margin: auto 10px;
+    /* left: -10px; */
+}
+li:nth-child(6){
+    top: 172px;
+    left: -90px;
+}
+li:nth-child(7){
+    top: 172px;
+    left: -268px;
+}
+li:nth-child(8){
+    top: 172px;
+    left: -447px;
+}
+li:nth-child(9){
+    top: 172px;
+    left: -626px;
+}
+li:nth-child(10){
+    top: 172px;
+    left: -802px;
+}
+li:nth-child(11){
+    top: 127px;
+    left: -801px;
+}
+li:nth-child(12){
+    top: 127px;
+    left: -801px;
+}
+li:nth-child(13){
+    top: 127px;
+    left: -801px;
+}
+li:nth-child(14){
+    top: 127px;
+    left: -801px;
+}
+li:nth-child(15){
+    top: 127px;
+    left: -1246px;
+}
+.secval{
+    position: relative;
+    top: 10%;
+    left: 30%;
+    width: 5vw;
+    height: 4vh;
+}
+.result{
+    position: relative;
+    top: 10%;
+    left: 30%;
+    width: 15vw;
+    height:4vh;
+}

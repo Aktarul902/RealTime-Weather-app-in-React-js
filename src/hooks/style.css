@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #121212;
+    color: white;
+    
+}
+.incr{
+    position: relative;
+    top: 35vh;
+    left: 32vw;
+    background-color: transparent;
+    width: 98px;
+    height: 88px;
+    border: 2px solid #fff;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0px 81px;
+}
+.incr:hover{
+    background-color: #fff;
+    color: #121212;
+}
+p{    position: absolute;
+    left: 48vw;
+    top: 24vh;
+    font-size: 42px;
+}
